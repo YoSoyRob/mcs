@@ -36,14 +36,12 @@ nav ul {
   display: flex;
 }
 
-nav ul:hover {background-color: antiquewhite;}
-
 nav ul li {
   margin: 0 15px;
 }
 
 nav ul li a {color: rgb(247, 239, 239); text-decoration: none; font-weight: bold; }
-nav ul li a:hover {color: blue; font-weight: bold;}
+nav ul li a:hover {color: black; font-weight: bold; background-color: white;}
 /*a {color: black;} */
 
 /* selector de tipo clase*/
