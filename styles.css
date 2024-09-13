@@ -26,13 +26,25 @@ header {
 
 header h1 { /*selector avanzado*/
   text-align: center;
+  justify-content: center;
+
 }
 
 nav ul {
-  background-color: beige;
+  background-color: rgb(39, 39, 39);
+  list-style: none;
+  display: flex;
 }
 
-li { display: inline-block; color: red;}
+nav ul:hover {background-color: antiquewhite;}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {color: rgb(247, 239, 239); text-decoration: none; font-weight: bold; }
+nav ul li a:hover {color: blue; font-weight: bold;}
+/*a {color: black;} */
 
 /* selector de tipo clase*/
 .estilo { background-color: rgb(161, 161, 161) ;}
