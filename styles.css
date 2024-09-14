@@ -13,6 +13,17 @@ body {
   line-height: 1.6; /* define interlineado*/
 }
 
+a{ 
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: whitesmoke ;
+  text-decoration: line;
+}
+
 .contenedor {
   width: 80%;
   margin: 0 auto; 
@@ -82,4 +93,31 @@ button{
   margin: 15px 15px 15px 150px;
   list-style-type: decimal;
 }
+
+.plan {
+  color: rgb(5, 17, 27);
+  margin: 15px 15px 15px 150px;
+  list-style-type: decimal;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  border-radius: 10%;
+}
+
+img.mundito {
+  margin: auto auto;
+}
+
+img.espir{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+img.elip {
+  max-width: 20%;
+  max-height: 20%;
+}
+
 
