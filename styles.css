@@ -18,6 +18,11 @@ body {
   margin: 0 auto; 
 }
 
+.estilo {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
   background-color: azure;
   color: black;
@@ -41,9 +46,40 @@ nav ul li {
 }
 
 nav ul li a {color: rgb(247, 239, 239); text-decoration: none; font-weight: bold; }
-nav ul li a:hover {color: black; font-weight: bold; background-color: white;}
+nav ul li a:hover {color: black; font-weight: bold; background-color: white;}   
 /*a {color: black;} */
 
 /* selector de tipo clase*/
 .estilo { background-color: rgb(161, 161, 161) ;}
+
+ol {
+  color: aliceblue;
+  margin: 15px 15px 15px 150px;
+  list-style-type: lower-roman;
+}
+
+h2{
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+button{
+  position: relative;
+  margin: 0 50% 5% 50%;
+  display: flex;
+  width: 100px;
+  height: 30px;
+}
+
+.galxi{
+  color: rgb(5, 17, 27);
+  margin: 15px 15px 15px 150px;
+  list-style-type: decimal;
+}
 
