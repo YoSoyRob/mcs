@@ -144,7 +144,7 @@ img.elip {
   max-width: 20%;
   max-height: 20%;
 }
-
+/*
 img.galesp {
   max-width: 20%;
   max-height: 20%;
@@ -162,7 +162,7 @@ img.gallen {
   max-height: 20%;
   margin: 5px 50px 5px 10px;
 }
-
+*/
 img.planetas {
   margin: auto auto;
 }
@@ -205,16 +205,55 @@ footer {
 
 button.cta { 
   position: relative;
-  margin: 0 50% 5% 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   width: 100px;
   height: 30px;
   text-align: center; /*no estoy logrando alinear el texto */
+  padding: 10px 2px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(35, 95, 75);
+  cursor: pointer;
 }
 
 button.cta:hover {
   color: white;
   background-color: black;
+}
+
+/*estilos al contenedor de tarjetas usar "flexbox"*/
+
+.cardimagenes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+
+.card {
+  background-color: black;
+  border-radius: 10px;
+  width: 250px;
+  margin: 15px;
+  text-align: center;
+  color: aliceblue;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: white;
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
 }
 
 
