@@ -30,8 +30,27 @@ a:hover {
 }
 
 .estilo {
+  /*padding: 20px;
+  margin: 20px 0; */
   width: 80%;
   margin: 0 auto;
+  transition: background-color 0.3s ease; /*ajusta el periodo de tiempo en que se realiza el "transition"*/
+}
+
+.estilo:hover {
+  background-color: aliceblue;
+}
+
+.estilo2 {
+  /*padding: 20px;
+  margin: 20px 0; */
+  width: 80%;
+  margin: 0 auto;
+  transition: background-color 0.3s ease; /*ajusta el periodo de tiempo en que se realiza el "transition"*/
+}
+
+.estilo2:hover {
+  background-color: rgb(54, 140, 216);
 }
 
 header {
@@ -50,6 +69,7 @@ nav ul {
   background-color: rgb(39, 39, 39);
   list-style: none;
   display: flex;
+  text-align: center;
 }
 
 nav ul li {
@@ -72,6 +92,11 @@ ol {
 h2{
   margin-left: 20px;
   margin-right: 50px;
+}
+
+h3 {
+  margin-left: 40px;
+  margin-right: 70px;
 }
 
 p {
@@ -120,6 +145,24 @@ img.elip {
   max-height: 20%;
 }
 
+img.galesp {
+  max-width: 20%;
+  max-height: 20%;
+  margin: 5px 50px 5px 10px;
+}
+
+img.galelip {
+  max-width: 20%;
+  max-height: 20%;
+  margin: 5px 50px 5px 10px;
+}
+
+img.gallen {
+  max-width: 20%;
+  max-height: 20%;
+  margin: 5px 50px 5px 10px;
+}
+
 img.planetas {
   margin: auto auto;
 }
@@ -159,4 +202,20 @@ footer {
   margin: 10px;
   text-align: center;
 }
+
+button.cta { 
+  position: relative;
+  margin: 0 50% 5% 50%;
+  display: flex;
+  width: 100px;
+  height: 30px;
+  text-align: center; /*no estoy logrando alinear el texto */
+}
+
+button.cta:hover {
+  color: white;
+  background-color: black;
+}
+
+
 
