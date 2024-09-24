@@ -27,6 +27,8 @@ a:hover {
 .contenedor {
   width: 80%;
   margin: 0 auto; 
+  /*position: fixed;
+  top: 0; */
 }
 
 .estilo {
@@ -133,6 +135,8 @@ img {
 
 img.mundito {
   margin: auto auto;
+  width: 50%;
+
 }
 
 img.espir{
@@ -201,6 +205,8 @@ footer {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  /*position:fixed;
+  bottom: 0;*/
 }
 
 button.cta { 
