@@ -305,14 +305,39 @@ footer {
     }
 }
 
+@media screen and (max-width: 860px) {
+    .contenedor {
+        position: relative;
+        align-content: center;
+        padding: 8px;
+        width: 80%;
+        height: auto;
+    }    
+    nav ul {
+        background-color:  rgb(29, 5, 170);
+        list-style:none;
+        display: flex;
+        align-items: justify;
+        flex-direction:column;
+    
+    nav ul li {
+            margin: auto;
+            border: auto white;
+        }
+
+    }
+}
+
 @media screen and (max-width: 750px) {
     .contenedor {
         position: relative;
         align-content: center;
-        padding: 10px;
+        padding: 5px;
+        width: 80%;
+        height: auto;
     }    
     nav ul {
-        background-color: rgb(171, 157, 248);
+        background-color: rgb(126, 105, 245);
         list-style:none;
         display: flex;
         align-items: justify;
