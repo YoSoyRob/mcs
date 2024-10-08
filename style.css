@@ -321,3 +321,44 @@ footer {
     }
 }
 
+.comen{
+    background-color: gray;
+}
+
+.textar {
+        width:400px;
+        height:100px;
+        border: 2px solid #f509ba;
+}
+
+@media screen and (max-width: 850px ) {
+    .textar {
+    width:350px;
+    height:90px;
+    border: 2px solid #00992e;
+}
+}
+
+@media screen and (max-width: 750px ) {
+    .textar {
+    width:300px;
+    height:70px;
+    border: 2px solid #c7f10b;
+}
+}
+
+@media screen and (max-width: 310px ) {
+    .textar {
+    width:250px;
+    height:90px;
+    border: 2px solid #008799;
+}
+}
+
+@media screen and (max-width: 270px ) {
+    .textar {
+    width:230px;
+    height:90px;
+    border: 2px solid #990091;
+}
+}
